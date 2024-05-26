@@ -1,19 +1,17 @@
-import React from 'react';
+
 import AnchorTemporaryDrawer from './drawer.jsx'
-// import { Button } from '../Button.jsx';
-import './style.css'
-// import { Dashboard } from '@mui/icons-material';
+import Button from '../Button/Button.jsx'
 
 function Header() {
   return (
-    <div className="px-4 py-4 flex items-center justify-between">
+    <div className="px-6 py-4 flex items-center justify-between">
       <div className="logo">
-        <h1>
+        <h1 className='text-xl'>
           CryptoTracker<span style={{ color: 'var(--blue)' }}>.</span>
         </h1>
       </div>
 
-      <div className="hidden md:flex md:gap-6 md:opacity-50">
+      <div className="hidden md:flex md:gap-6 flex items-center">
         <a href="/">
           <p>Home</p>
         </a>
@@ -23,9 +21,8 @@ function Header() {
         <a href="/">
           <p>Watchlist</p>
         </a>
-        <a className="px-2 rounded-full" href="/">
-          <p style={{ backgroundColor: 'var(--blue)' }}>Dashboard</p>
-          {/* <Button text={"Dashboard"}/> */}
+        <a href="/">
+          <Button text={"Dashboard"}/>
         </a>
       </div>
 

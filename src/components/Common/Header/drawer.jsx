@@ -12,7 +12,7 @@ export default function AnchorTemporaryDrawer() {
           <IconButton onClick={()=>setOpen(true)}><MenuRoundedIcon className={`text-white`}/></IconButton>
           <Drawer PaperProps={{sx: {height:'auto', top: "5px"}}} anchor={"right"} open={open} onClose={()=> setOpen(false)}>
             <div style={{
-              backgroundColor: 'red',
+              backgroundColor: 'slate',
               height:'50%'
               }} 
               className='flex w-full bg-red text-red'>

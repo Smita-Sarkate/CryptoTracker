@@ -1,0 +1,10 @@
+.stroke-effect {
+    color: var(--white);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+  }
+  .stroke-effect:hover{
+    color: var(--black);
+    -webkit-text-stroke-color: white;
+    transition: all o.3s;
+  }
