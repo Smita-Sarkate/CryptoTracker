@@ -23,11 +23,6 @@ function MainPage() {
             <img src={gradient} className='absolute right-8 h-[30rem] w-[15rem] mt-10'/>
             <img src={iphn} className='absolute animate-[bounce_2s_ease-in-out_infinite] right-8 h-[34rem] w-[20rem]'/>
         </div>
-        {/* <div className='right'>
-            <img src={gradient} className='absolute right-28 h-[125%] mt-24'/>
-            <img src={iphn} className='absolute right-28 w-[20%]'/>
-        </div> */}
-    
     </div>
   )
 }

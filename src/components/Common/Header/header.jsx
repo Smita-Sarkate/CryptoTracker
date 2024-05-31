@@ -1,6 +1,7 @@
 
 import AnchorTemporaryDrawer from './drawer.jsx'
 import Button from '../Button/Button.jsx'
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
@@ -12,18 +13,18 @@ function Header() {
       </div>
 
       <div className="hidden md:flex md:gap-6 flex items-center">
-        <a href="/">
+        <Link to="/">
           <p>Home</p>
-        </a>
-        <a href="/">
+        </Link>
+        <Link to="/compare">
           <p>Compare</p>
-        </a>
-        <a href="/">
+        </Link>
+        <Link to="/watchlist">
           <p>Watchlist</p>
-        </a>
-        <a href="/">
+        </Link>
+        <Link to="/dashboard">
           <Button text={"Dashboard"}/>
-        </a>
+        </Link>
       </div>
 
       <div className="md:hidden">
